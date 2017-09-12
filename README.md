@@ -1,4 +1,4 @@
-<h1 align="center">**Mecanica** </h1>
+<h1 align="center"> Mecanica </h1>
 
 Projeto com o intuito de ajudar uma mecanica com a criação de um **Banco de Dados** para controle de Orçamentos!
 <p align="center">
@@ -7,7 +7,7 @@ Projeto com o intuito de ajudar uma mecanica com a criação de um **Banco de Da
   </a><br>
   </p>
   <h1>
-<h1 align="center">**QUESTÕES** <h1>
+<h1 align="center"> QUESTÕES <h1>
 </h1>
 
 1. Selecionar os produtos usados nos carros, identificando o dono do carro pelo IdCliente = 6 a 15, exibindo o preço.
