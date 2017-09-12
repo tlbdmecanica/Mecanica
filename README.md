@@ -1,13 +1,13 @@
-# Mecanica
+<h1 align="center">**Mecanica** </h1>
 
 Projeto com o intuito de ajudar uma mecanica com a criação de um **Banco de Dados** para controle de Orçamentos!
 <p align="center">
   <a href="https://getbootstrap.com">
-    <img src="http://www.radan.ind.br/images/service-icon.png" width=72 height=72>
+    <img src="http://www.radan.ind.br/images/service-icon.png" width=120 height=120>
   </a><br>
   </p>
   <h1>
-# QUESTÕES
+<h1 align="center">**QUESTÕES** <h1>
 </h1>
 
 1. Selecionar os produtos usados nos carros, identificando o dono do carro pelo IdCliente = 6 a 15, exibindo o preço.
@@ -25,9 +25,11 @@ Projeto com o intuito de ajudar uma mecanica com a criação de um **Banco de Da
 7. Selecionar o funcionário que mais rendeu dinheiro (somar a quantidade de ordem de serviços na qual esse funcionário trabalhou) durante o mês de setembro e exiba o nome, id e a especialização.
 
 8. O funcionário id=7, teve um problema de saúde e se ausentou do serviço no dia 25 de novembro de 2015 e todos as ordens de serviço em seu nome mudou para o dia seguinte. 
+
+✨Obrigado desde já! Caso alguma duvida é só abrir um Issue que responderemos o mais rapido possivel! ✨
+
 <p align="center">
   <a href="https://getbootstrap.com">
     <img src="/der.PNG" width=500 height=350>
   </a><br>
   </p>
-
