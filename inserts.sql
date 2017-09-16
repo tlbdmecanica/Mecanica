@@ -208,7 +208,7 @@ insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, fun
 insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (43, '2009/07/11', '$2441.71', 9, 49);
 insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (48, '2016/12/25', '$1313.34', 10, 31);
 insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (47, '2014/07/07', '$2178.84', 13, 43);
-insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (16, '2012/06/24', '$100.39', 1, 10);
+insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (16, '2012/06/24', '$100.39', 1, 9);
 insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (25, '2008/04/27', '$634.20', 32, 1);
 insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (37, '2017/06/23', '$4628.51', 44, 34);
 insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (24, '2009/01/22', '$2188.46', 23, 8);
@@ -218,7 +218,7 @@ insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, fun
 insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (6, '2010/08/08', '$1045.36', 18, 16);
 insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (12, '2009/09/24', '$3152.25', 25, 2);
 insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (24, '2015/03/25', '$2330.63', 2, 1);
-insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (20, '2009/08/21', '$4562.38', 11, 32);
+insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (20, '2009/08/21', '$4562.38', 11, 9);
 insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (39, '2014/03/01', '$3885.88', 21, 24);
 insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (18, '2009/02/25', '$2092.53', 46, 1);
 insert into ordem_de_servico (produto_idproduto, data, preco, carro_idcarro, funcionario_idfuncionario) values (45, '2013/05/22', '$961.50', 49, 33);
