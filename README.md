@@ -21,7 +21,7 @@ Projeto com o intuito de ajudar uma mecanica com a criação de um **Banco de Da
 
 6. A ordem de serviço com id=50, foi a premiada e na hora de seu pagamento obteve um desconto de 15% do total geral, exiba o carro, a placa do carro e o nome do ganhador (dono do carro).
 
-7. Selecionar o funcionário que mais rendeu dinheiro (somar a quantidade de ordem de serviços na qual esse funcionário trabalhou) durante o mês de setembro e exiba o nome, id e a especialização.
+7. Selecionar o funcionário que mais rendeu dinheiro (somar o valor das ordens de serviço na qual esse funcionário trabalhou) durante o ano de 2017 e exiba o nome, id e a especialização.
 
 8. O funcionário id=7, teve um problema de saúde e se ausentou do serviço no dia 25 de novembro de 2015 e todos as ordens de serviço em seu nome mudou para o dia seguinte. 
 
