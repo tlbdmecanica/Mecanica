@@ -28,7 +28,6 @@ Projeto com o intuito de ajudar uma mecanica com a criação de um **Banco de Da
 ✨Obrigado desde já! Caso alguma duvida é só abrir um Issue que responderemos o mais rapido possivel! ✨
 
 <p align="center">
-  <a href="https://getbootstrap.com">
-    <img src="/der.PNG" width=500 height=350>
+    <img src="/der.PNG" >
   </a><br>
   </p>
