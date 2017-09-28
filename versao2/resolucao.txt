@@ -1,0 +1,145 @@
+Resoluções das questões - v2
+1-
+select produto.descricao, cliente.idcliente, produto.preco
+
+from ordem_servico
+
+inner join ordem_servico_has_produto
+
+on ordem_servico_has_produto.ordem_servico_idordem_servico = ordem_servico.idordem_servico
+
+inner join produto
+
+on ordem_servico_has_produto.produto_idproduto = produto.idproduto
+
+inner join carro
+
+on ordem_servico.carro_idcarro = carro.idcarro
+
+inner join cliente
+
+on carro.cliente_idcliente = cliente.idcliente
+
+where cliente.idcliente between 6 and 15;
+
+2-
+select funcionario.*, cliente.nome as nome_cliente, carro.idcarro, carro.placa
+
+from funcionario
+
+
+inner join ordem_servico
+
+on ordem_servico.funcionario_idfuncionario = funcionario.idfuncionario
+
+inner join carro
+
+on carro.idcarro = ordem_servico.carro_idcarro
+
+inner join cliente
+on cliente.idcliente = carro.cliente_idcliente
+
+where carro.placa = 'MTI-4432' 
+
+or carro.placa = 'MTW-6579'
+
+or carro.placa = 'KAR-2345';
+
+3-
+select count(carro.idcarro)
+from funcionario
+
+inner join ordem_servico
+
+on ordem_servico.funcionario_idfuncionario = funcionario.idfuncionario
+
+inner join carro
+
+on ordem_servico.carro_idcarro = carro.idcarro
+
+inner join cliente
+
+on carro.cliente_idcliente = cliente.idcliente
+
+where funcionario.idfuncionario = 9 
+and data between '2008/02/20' and curdate();
+
+select carro.idcarro, carro.placa, carro.marca, cliente.idcliente, cliente.nome
+from funcionario
+
+inner join ordem_servico
+
+on ordem_servico.funcionario_idfuncionario = funcionario.idfuncionario
+
+inner join carro
+
+on ordem_servico.carro_idcarro = carro.idcarro
+
+inner join cliente
+
+on carro.cliente_idcliente = cliente.idcliente
+
+where funcionario.idfuncionario = 9 
+and data between '2008/02/20' and curdate();
+
+4-
+select count(ordem_servico_has_produto.produto_idproduto) as qtd_pecas_usadas
+
+from ordem_servico_has_produto
+
+inner join ordem_servico
+
+on ordem_servico_has_produto.ordem_servico_idordem_servico = ordem_servico.idordem_servico
+
+
+
+where data between '2013/01/01' and '2017/09/01';
+
+5-
+select (substring(ordem_servico.preco,2)*1.03) - substring(ordem_servico.preco,2) as prejuizo
+
+from ordem_servico
+
+6-
+select cliente.nome, carro.idcarro, carro.placa,
+
+(substring(ordem_servico.preco,2) * 0.85) as valor_com_desconto,
+
+(substring(ordem_servico.preco,2) * 0.15) as desconto_recebido
+
+from ordem_servico
+
+inner join carro
+
+on carro.idcarro = ordem_servico.carro_idcarro
+
+inner join cliente
+on cliente.idcliente = carro.cliente_idcliente
+
+where ordem_servico.idordem_servico = 50;
+
+7-
+select funcionario.idfuncionario, funcionario.nome, funcionario.especializacao
+
+from funcionario
+
+inner join ordem_servico
+
+on ordem_servico.funcionario_idfuncionario = funcionario.idfuncionario
+
+where ordem_servico.data >= '2017-01-01'
+
+group by funcionario.idfuncionario
+
+order by sum(substring(ordem_servico.preco,2)) desc limit 1;
+
+8-
+update ordem_servico
+
+set data = adddate(ordem_servico.data,1)
+
+where ordem_servico.funcionario_idfuncionario = 7
+
+and data = '2015/11/25';
+
+resolucao.md
