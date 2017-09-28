@@ -23,9 +23,9 @@ Projeto com o intuito de ajudar uma mecânica com a criação de um **Banco de D
 
 7. Selecionar o funcionário que mais rendeu dinheiro (somar o valor das ordens de serviço na qual esse funcionário trabalhou) durante o ano de 2017 e exiba o nome, id e a especialização.
 
-8. O funcionário id=7, teve um problema de saúde e se ausentou do serviço no dia 25 de novembro de 2015 e todos as ordens de serviço em seu nome mudou para o dia seguinte. 
+8. O funcionário id=7, teve um problema de saúde e se ausentou do serviço no dia 25 de novembro de 2015 e todas as ordens de serviço em seu nome mudou para o dia seguinte. 
 
-✨Obrigado desde já! Caso alguma duvida é só abrir um Issue que responderemos o mais rapido possivel! ✨
+✨Obrigado desde já! Caso alguma duvida é só abrir um Issue que responderemos o mais rápido possível! ✨
 
 <p align="center">
     <img src="/der.PNG" >
