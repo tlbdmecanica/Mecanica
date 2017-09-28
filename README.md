@@ -1,7 +1,7 @@
-<h1 align="center"> Mecanica </h1>
+<h1 align="center"> Mecânica </h1>
 
     
-Projeto com o intuito de ajudar uma mecanica com a criação de um **Banco de Dados** para controle de Orçamentos!
+Projeto com o intuito de ajudar uma mecânica com a criação de um **Banco de Dados** para controle de orçamentos!
 <p align="center">
     <img src="http://www.radan.ind.br/images/service-icon.png" width=120 height=120><br>
   </p>
